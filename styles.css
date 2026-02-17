@@ -179,6 +179,24 @@ a.inline:hover{ color: var(--link-hover); }
   .brand-logo{ height: 28px; }
 }
 
+/* Small logo at top */
+.hero-logo-small{
+  width: 220px;
+  height: auto;
+  margin-bottom: 22px;
+  opacity: .95;
+}
+
+/* Restore hero title appearance */
+.hero-title{
+  font-size: var(--text-h1);
+  line-height: var(--lh-tight);
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+
 /* Theme toggle: small, icon-only, clean */
 .theme-toggle{
   position: fixed;
