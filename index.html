@@ -31,7 +31,17 @@
 
     <!-- Topbar -->
     <div class="topbar">
-      <div class="brand">The Lande Group</div>
+      <a class="brand" href="/" aria-label="The Lande Group home">
+        <img
+          class="brand-logo"
+          src="thelandegroup-logo-text.png"
+          alt="The Lande Group"
+          width="520"
+          height="96"
+          decoding="async"
+          loading="eager"
+        >
+      </a>
 
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
         <span class="sun" aria-hidden="true">☼</span>
@@ -41,7 +51,19 @@
 
     <!-- Hero -->
     <header class="hero">
-      <h1>The Lande Group</h1>
+      <!-- Keep an H1 for SEO/accessibility, but render the logo visually -->
+      <h1 class="sr-only">The Lande Group</h1>
+
+      <img
+        class="hero-logo"
+        src="thelandegroup-logo-text.png"
+        alt="The Lande Group"
+        width="760"
+        height="140"
+        decoding="async"
+        loading="eager"
+      >
+
       <p class="tagline">Operating clarity for complex growth.</p>
 
       <p class="intro">
