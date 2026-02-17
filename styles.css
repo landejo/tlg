@@ -156,6 +156,7 @@ a.inline:hover{ color: var(--link-hover); }
   align-items: center;
   justify-content: space-between;
   padding: 22px 0 0;
+  gap: 16px;
 }
 
 .brand{
@@ -230,15 +231,6 @@ a.inline:hover{ color: var(--link-hover); }
 }
 
 /* Hero logo */
-.hero-logo{
-  display: block;
-  height: clamp(44px, 5vw, 82px);
-  width: auto;
-  max-width: min(92vw, 720px);
-  margin: 6px 0 10px;
-  object-fit: contain;
-}
-
 .hero .tagline{
   font-size: clamp(18px, 1.1vw + 14px, 24px);
   line-height: 1.35;
@@ -437,5 +429,4 @@ li{ margin: 10px 0; }
   ul{ padding-left: 16px; }
 
   .brand-logo{ height: 24px; }
-  .hero-logo{ height: clamp(40px, 8vw, 64px); }
-}
+  }
